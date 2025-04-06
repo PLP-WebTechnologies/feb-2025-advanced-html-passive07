@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+  <html.lang="en">
+    <head>
+        <meta name="viewpoint" content="width=device-width, initial scale=1.0">
+        <title> HTML List, Images Tables & Forms</title>
+    </head>
+    <body>
+        <h2> HTML Lists</h2>
+         <h3> Ordered List</h3>
+         <ol type="i" start="71">
+            <li> okorie</li>
+            <li>chukwu</li>
+            <li>thankGod</li>
+            <li>Passive</li>
+            <li>tgchuks</li>
+         </ol>
+         <h3>Un-ordered lists</h3>
+         <ul type="square"> 
+            <li> chukeu</li>
+            <li> kalu</li>
+            <li> oko</li>
+            <li>kal</li>
+            <li> rose</li>
+         </ul>
+         <h3>Definition Lists</h3>
+         <dl>
+            <dt>FBI</dt>
+            <dd> Federal bereau of investigation </dd>
+            <dt>HTML</dt>
+            <dd>Hypertext markup Language</dd>
+            <dt>Sql</dt>
+            <dd> structured query language</dd>
+
+        </dl>
+
+        <h2>html Images</h2>
+        <img src="psv.png" alt="image of screenshort" width="350" height="550">
+        <img src="https://www.pexels.com/video/an-elevated-highway-in-the-mountain-valley-in-hawaii-3629511/" alt="image of nature" height="550" width="350">
+
+        <h3> HTML table</h3>
+        <table border="1">
+            <caption>Passive information</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td>chuks</td>
+                    <td>pass@gmail.com</td>
+                    <td>gamany</td>
+                </tr>
+                <tr> 
+                    <td>pass</td>
+                    <td>oko@gmail.com</td>
+                    <td>usa</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <th>Name</th>
+                        <th> Email</th>
+                        <th>country</th>
+                    </tr>
+                </tfoot>
+            </tbody>
+        </table> 
+        <h4> HTML forms</h4>
+        <form action="" method="">
+            <label for="name">Name:</label>
+            <input type="text" id="student_name" name="student_name" required>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="female"> Female
+            <input type="radio" id="gender" name="gender" value="female"> Male
+            <br><br>
+            <label for="hobbies"> Hobbies</label>
+            <input type="checkbox" name="hobbies" value="sports"> Sports
+            <input type="checkbox" name="hobbies" value="music"> Music
+            <input type="checkbox" name="hobbies" value="arts"> Arts
+            <input type="checkbox" name="hobbies" value="travel"> travel
+            <br><br>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option>--select country--</option>
+                <option Value="Nigeria">Nigeria</option>
+                <option Value="Namibia">Namibia</option>
+                <option Value="Rwanda">Rwanda</option>
+            </select>
+            <br><br>
+            <label for="description">Describe your yourself</label>
+            <textarea id="description" name="description"> </textarea>
+            <br><br>
+            <button>Register</button>
+            <input type="button" value="Cancel">
+        </form>
+
+    </body>
+
+  </html>
